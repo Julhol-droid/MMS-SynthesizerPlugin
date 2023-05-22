@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst",
+		"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst"
+	}
+}

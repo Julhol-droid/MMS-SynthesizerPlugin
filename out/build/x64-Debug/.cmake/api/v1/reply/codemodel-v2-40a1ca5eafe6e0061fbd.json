@@ -1,0 +1,1168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "vst3sdk",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						16,
+						18,
+						39
+					],
+					"jsonFile" : "directory-vst3sdk-Debug-940e587186a5d4ab3a02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						30
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build-Debug-118e8a0ee3b5ef092a08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/vstgui4"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui-Debug-c2678a940bedd2f7270e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/vstgui4/vstgui"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/lib",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.lib-Debug-e219266b5e0027488f89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/vstgui4/vstgui/lib",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/uidescription",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.uidescription-Debug-8dcc2074244ec9934573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/standalone",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.standalone-Debug-6073163459fcf4109bac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/vstgui4/vstgui/standalone",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "vst3sdk/pluginterfaces",
+					"jsonFile" : "directory-vst3sdk.pluginterfaces-Debug-ebc6ab481722263823a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/pluginterfaces",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "vst3sdk/base",
+					"jsonFile" : "directory-vst3sdk.base-Debug-d6bf15556387957b36e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/base",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk",
+					"jsonFile" : "directory-vst3sdk.public.sdk-Debug-efaef29703b3b2696bbf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk",
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/interappaudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.interappaudio-Debug-a7633897b9348a55d0e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/source/vst/interappaudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting-Debug-214d55895449bb1c9310.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/audiohost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.audiohost-Debug-b9e34215745afd75e9dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/audiohost"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.editorhost-Debug-8e91293aaf75ce2cf9f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.inspectorapp-Debug-2aeed0ea7678a110af96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.validator-Debug-2640d09f69320c61225f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities-Debug-25360ac941e4a6fd4bf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities.moduleinfotool-Debug-502884120ab0f56839d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst",
+					"childIndexes" : 
+					[
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-Debug-da415afa2d84f4c759c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/InterAppAudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.InterAppAudio-Debug-c71eb270ef9dd53c3ad6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/InterAppAudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/adelay",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.adelay-Debug-6ae7de2ea93b0963daa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 5,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again-Debug-da74726197d2c953ee76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 6,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/again",
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_aax",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_aax-Debug-23835d6c97e2b1064672.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 7,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/again_aax"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_auv3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_auv3-Debug-51e984bc883458d35d32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/again_auv3"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_sampleaccurate",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_sampleaccurate-Debug-d6fd4009d365f7d52aca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 8,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/again_sampleaccurate",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/channelcontext",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.channelcontext-Debug-385150c8cb64b056c513.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 9,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/channelcontext",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/hostchecker",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.hostchecker-Debug-e8e567a8763dc34dd428.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 10,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/hostchecker_aax",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.hostchecker_aax-Debug-503972f7d09f06d19199.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker_aax"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/legacymidiccout",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.legacymidiccout-Debug-ee9935df31ea1d8d85ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 11,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/legacymidiccout",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/mda-vst3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.mda-vst3-Debug-fa9218b5ec9fe6021885.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 12,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/mda-vst3",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/multiple_programchanges",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.multiple_programchanges-Debug-5cc6cac5a13e25753907.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 13,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_synth",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_synth-Debug-861027ed2355dad40e4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 14,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/note_expression_synth",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_synth_auv3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_synth_auv3-Debug-f83f2de57476a12167eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/note_expression_synth_auv3"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_text",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_text-Debug-256937e78b7a71b1ec94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 15,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/note_expression_text",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/panner",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.panner-Debug-2b56f44ecebd6287f6e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 16,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/panner",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/pitchnames",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.pitchnames-Debug-e93fe39ae9aa84fd2ae8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 17,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/prefetchablesupport",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.prefetchablesupport-Debug-69b68e33ba2300ea0220.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 18,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/prefetchablesupport",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/programchange",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.programchange-Debug-981742418a4605938a81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 19,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/programchange",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/syncdelay",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.syncdelay-Debug-5a03efd88f574c042325.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 20,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/auv3wrapper",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.auv3wrapper-Debug-b1ce55ae8da787b174fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/public.sdk/source/vst/auv3wrapper"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MMS_SynthesizerPlugin",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						23,
+						27,
+						32,
+						39
+					],
+					"name" : "vstsdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9,
+						10,
+						14,
+						27,
+						28,
+						29,
+						30,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "smtg_pluginterfaces",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "smtg_base",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "smtg_public_sdk",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "smtg-vst3-adelay",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "smtg-vst3-again",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "smtg-vst3-again",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "smtg-vst3-again-sampleaccurate",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "smtg-vst3-channelcontext",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "smtg-vst3-hostchecker",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "smtg-vst3-legacymidiccout",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "smtg-vst3-mda",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "smtg-vst3-multiple-program-changes",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "smtg-vst3-noteexpressionsynth",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "smtg-vst3-noteexpressiontext",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "smtg-vst3-panner",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "smtg-vst3-pitchnames",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "smtg-vst3-prefetchable",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "smtg-vst3-programchange",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "smtg-vst3-syncdelay",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MMS_SynthesizerPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MMS_SynthesizerPlugin-Debug-92f28e0b763024e0174a.json",
+					"name" : "MMS_SynthesizerPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "VST3Inspector::@dc840a833f6d1fb1f0f7",
+					"jsonFile" : "target-VST3Inspector-Debug-f654abe85666228dadb0.json",
+					"name" : "VST3Inspector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "adelay::@c6beefe1847bdd1b4085",
+					"jsonFile" : "target-adelay-Debug-368293c7cdebbb1213f5.json",
+					"name" : "adelay",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "again::@04115df932e4fc49a110",
+					"jsonFile" : "target-again-Debug-83e62e9876bf933ac615.json",
+					"name" : "again",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "again-sampleaccurate::@a0e23bd252f4effc021b",
+					"jsonFile" : "target-again-sampleaccurate-Debug-05852a05e9e5250b9351.json",
+					"name" : "again-sampleaccurate",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "againsimple::@04115df932e4fc49a110",
+					"jsonFile" : "target-againsimple-Debug-0359911d2880e5cecb38.json",
+					"name" : "againsimple",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "base::@0735951bbe0919745031",
+					"jsonFile" : "target-base-Debug-3d2fe13c36d8776c8f94.json",
+					"name" : "base",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "channelcontext::@9a855c43cf452464e970",
+					"jsonFile" : "target-channelcontext-Debug-40432b7c6511844a0e75.json",
+					"name" : "channelcontext",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_VST_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_VST_modules-Debug-4fe9be34b557952d7621.json",
+					"name" : "cmake_VST_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_modules-Debug-244dbd0bdf49e0a3b522.json",
+					"name" : "cmake_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "editorhost::@dc0fb5d1d9d0b9a647fe",
+					"jsonFile" : "target-editorhost-Debug-8396dc7e2e594497969c.json",
+					"name" : "editorhost",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "hostchecker::@fc8c22d296703ae5bb4f",
+					"jsonFile" : "target-hostchecker-Debug-4b167d11ded18af5a466.json",
+					"name" : "hostchecker",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "legacymidiccout::@9a7ac05681bb132962e4",
+					"jsonFile" : "target-legacymidiccout-Debug-b8eaec0db1b5af9d452e.json",
+					"name" : "legacymidiccout",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "mda-vst3::@d443ee1072f4fba02cb9",
+					"jsonFile" : "target-mda-vst3-Debug-d74f122eee1b10a6945e.json",
+					"name" : "mda-vst3",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "moduleinfotool::@0ccd92616ad435ec5cfd",
+					"jsonFile" : "target-moduleinfotool-Debug-96873c7a422fea929b16.json",
+					"name" : "moduleinfotool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "multiple-program-changes::@f9c7d6da80475e42169d",
+					"jsonFile" : "target-multiple-program-changes-Debug-19121e3dbe8ef6c4bb33.json",
+					"name" : "multiple-program-changes",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "noteexpressionsynth::@ea820be0094b96ad3df7",
+					"jsonFile" : "target-noteexpressionsynth-Debug-f652eb41324823ddb9b0.json",
+					"name" : "noteexpressionsynth",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "noteexpressiontext::@cc800d8b63700d8adc68",
+					"jsonFile" : "target-noteexpressiontext-Debug-f465d388bae1cefd490f.json",
+					"name" : "noteexpressiontext",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "panner::@9ddfdca674381b5d9228",
+					"jsonFile" : "target-panner-Debug-94b6878d09e08c2e69d1.json",
+					"name" : "panner",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "pitchnames::@8373f61a1897afc68a4f",
+					"jsonFile" : "target-pitchnames-Debug-4e24cea61f3453c2780b.json",
+					"name" : "pitchnames",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-pluginterfaces-Debug-3c394c1c8a791c0ce2f4.json",
+					"name" : "pluginterfaces",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "prefetchable::@0996154b56ef0c43a249",
+					"jsonFile" : "target-prefetchable-Debug-bb4301b888d5b5a45d5a.json",
+					"name" : "prefetchable",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "programchange::@4808a36c53bf121bab3c",
+					"jsonFile" : "target-programchange-Debug-dcf987a067d899c879d4.json",
+					"name" : "programchange",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk-Debug-88c7714c2604a4bdf8cf.json",
+					"name" : "sdk",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_common::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_common-Debug-5ab264e8eca3a141553e.json",
+					"name" : "sdk_common",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_hosting::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_hosting-Debug-9bf19c5bb50ee3f3f4c1.json",
+					"name" : "sdk_hosting",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "syncdelay::@932a70a66b653d92d5dd",
+					"jsonFile" : "target-syncdelay-Debug-ebe737e1220b9a810b63.json",
+					"name" : "syncdelay",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "validator::@cb6a5f45744856ded658",
+					"jsonFile" : "target-validator-Debug-4fd83e289f001e7f39a1.json",
+					"name" : "validator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vstgui::@54a0746fa10a39fdb5d0",
+					"jsonFile" : "target-vstgui-Debug-e6001709f9cea679022e.json",
+					"name" : "vstgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "vstgui_standalone::@ba128293594f8ecb9757",
+					"jsonFile" : "target-vstgui_standalone-Debug-3fc6f9acd5ec3bdf882f.json",
+					"name" : "vstgui_standalone",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vstgui_support::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-vstgui_support-Debug-feccaf62d9abdfca9c4e.json",
+					"name" : "vstgui_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b",
+					"jsonFile" : "target-vstgui_uidescription-Debug-2b72b268d1722557a668.json",
+					"name" : "vstgui_uidescription",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin/out/build/x64-Debug",
+		"source" : "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

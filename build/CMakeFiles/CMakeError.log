@@ -1,0 +1,25 @@
+Performing C++ SOURCE FILE Test SMTG_USE_STDATOMIC_H failed with the following output:
+Change Dir: C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin/build/CMakeFiles/CMakeScratch/TryCompile-r3s2os
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3f792.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++-Optimierungscompiler Version 19.36.32532 für x64
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f792.dir\Debug\\" /Fd"cmTC_3f792.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\src.cxx"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\__msvc_cxx_stdatomic.hpp(25): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\cmTC_3f792.vcxproj]
+C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\src.cxx(3,2): error C2065: "atomic_int_least32_t": nichtdeklarierter Bezeichner [C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\cmTC_3f792.vcxproj]
+C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\src.cxx(3,23): error C2146: Syntaxfehler: Fehlendes ";" vor Bezeichner "value" [C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\cmTC_3f792.vcxproj]
+C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\src.cxx(3,23): error C2065: "value": nichtdeklarierter Bezeichner [C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\cmTC_3f792.vcxproj]
+C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\src.cxx(4,21): error C2065: "value": nichtdeklarierter Bezeichner [C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\cmTC_3f792.vcxproj]
+C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\src.cxx(4,2): error C3861: "atomic_fetch_add": Bezeichner wurde nicht gefunden. [C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\CMakeFiles\CMakeScratch\TryCompile-r3s2os\cmTC_3f792.vcxproj]
+
+
+Source file was:
+#include <stdatomic.h>
+int main () { 
+	atomic_int_least32_t value = 0;
+	atomic_fetch_add (&value, 1); 
+	return 0; 
+}
+

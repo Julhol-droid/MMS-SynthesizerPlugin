@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4E858DB-B400-3A4B-93E8-DDF466A0FCC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\bin\cmake.exe" "-SC:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin" "-BC:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin/build" --check-stamp-file "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\CMakeParseArguments.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\CMakePrintHelpers.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\CheckLanguage.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\bin\cmake.exe" "-SC:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin" "-BC:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin/build" --check-stamp-file "C:/Users/julia/.Datenablage/julian/.Uni/LVA/2. Semester/MMS/Projekt/Output/MMS SynthesizerPlugin/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\CMakeParseArguments.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\CMakePrintHelpers.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\CheckLanguage.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\cmake-3.25.3-windows-x86_64\share\cmake-3.25\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\ZERO_CHECK.vcxproj">
+      <Project>{19D80668-CE25-3728-AE0B-AF56B72C6801}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst-hosting\inspectorapp\VST3Inspector.vcxproj">
+      <Project>{878BB86E-1C3D-3E58-BE06-4DBD83DF2E62}</Project>
+      <Name>VST3Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\adelay\adelay.vcxproj">
+      <Project>{1A00405E-8125-373F-9B99-E45E43626DB8}</Project>
+      <Name>adelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\again\again.vcxproj">
+      <Project>{8BBAE819-404B-3F96-8D03-980D6196E8B8}</Project>
+      <Name>again</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\again_sampleaccurate\again-sampleaccurate.vcxproj">
+      <Project>{A81383AD-C69A-346E-AC05-6E5D51DFD1A1}</Project>
+      <Name>again-sampleaccurate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\again\againsimple.vcxproj">
+      <Project>{98CFB464-DE4D-3CF5-B35D-714668139D2B}</Project>
+      <Name>againsimple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\base\base.vcxproj">
+      <Project>{F603A01E-01F6-3ED9-B1CF-F05DB643614B}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\channelcontext\channelcontext.vcxproj">
+      <Project>{A6ECED5A-E86D-3C81-9B1B-2E530FDD63AF}</Project>
+      <Name>channelcontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\editorhost.vcxproj">
+      <Project>{33901AEA-A445-3618-A420-F807C9A76229}</Project>
+      <Name>editorhost</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\hostchecker\hostchecker.vcxproj">
+      <Project>{1F1126FE-15CA-3961-B927-688E9FAB0B47}</Project>
+      <Name>hostchecker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\legacymidiccout\legacymidiccout.vcxproj">
+      <Project>{2A421096-AA11-3AA9-AC0E-FE1DB8082536}</Project>
+      <Name>legacymidiccout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\mda-vst3\mda-vst3.vcxproj">
+      <Project>{F296FB90-9329-32CC-BED2-9596586FB641}</Project>
+      <Name>mda-vst3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
+      <Project>{CF8A970B-2C65-34AD-A173-A78730EBC68B}</Project>
+      <Name>moduleinfotool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\multiple_programchanges\multiple-program-changes.vcxproj">
+      <Project>{9BE27B66-B5A1-3303-A2E9-9F2B96A1CE6F}</Project>
+      <Name>multiple-program-changes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\note_expression_synth\noteexpressionsynth.vcxproj">
+      <Project>{385D70B0-7E53-32A7-ACA2-D57A42209713}</Project>
+      <Name>noteexpressionsynth</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\note_expression_text\noteexpressiontext.vcxproj">
+      <Project>{57FFDDC5-2281-3746-BEE0-A151F25AEC7A}</Project>
+      <Name>noteexpressiontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\panner\panner.vcxproj">
+      <Project>{2940D88E-E0B1-3796-A85E-44A4F1461770}</Project>
+      <Name>panner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\pitchnames\pitchnames.vcxproj">
+      <Project>{DB79A9F2-59A6-3D74-B399-145712AB3548}</Project>
+      <Name>pitchnames</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{A015358B-1683-3AD4-B0FF-90FC83E1F5F2}</Project>
+      <Name>pluginterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\prefetchablesupport\prefetchable.vcxproj">
+      <Project>{D3D6757A-F7A1-3D81-976F-AA75E26A10CD}</Project>
+      <Name>prefetchable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\programchange\programchange.vcxproj">
+      <Project>{14EE8088-B3B4-3354-A7B0-B34CAFC319AF}</Project>
+      <Name>programchange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\sdk.vcxproj">
+      <Project>{BA09397B-59EE-3D49-A868-84066BE1DDF0}</Project>
+      <Name>sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\sdk_common.vcxproj">
+      <Project>{2A8A315B-AD21-3010-BD70-4B6F14E6275E}</Project>
+      <Name>sdk_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
+      <Project>{06F515D5-9F10-3298-96CE-CFB36BFF78D8}</Project>
+      <Name>sdk_hosting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst\syncdelay\syncdelay.vcxproj">
+      <Project>{D085E282-8C8E-341C-AA25-44B26A60BB59}</Project>
+      <Name>syncdelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
+      <Project>{FDD69355-89B2-34CC-B065-5C050C3A5C5C}</Project>
+      <Name>validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\VSTGUI.build\vstgui\lib\vstgui.vcxproj">
+      <Project>{23DEAA0B-492B-3246-986B-93BB1F446B64}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\VSTGUI.build\vstgui\standalone\vstgui_standalone.vcxproj">
+      <Project>{CD81BE60-C827-3716-94E0-0083B8EB1DF2}</Project>
+      <Name>vstgui_standalone</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\vstgui_support.vcxproj">
+      <Project>{53D34FAE-6707-379B-A533-DF12484DF3BB}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julia\.Datenablage\julian\.Uni\LVA\2. Semester\MMS\Projekt\Output\MMS SynthesizerPlugin\build\vst3sdk\VSTGUI.build\vstgui\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{A3D8C3D7-D3A8-3D71-BC8C-88C44A1EC1F9}</Project>
+      <Name>vstgui_uidescription</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
